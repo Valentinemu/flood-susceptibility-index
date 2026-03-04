@@ -58,7 +58,7 @@ def_fields = ['OBJECTID','Shape','Sample_ID','Flood_Samp','FS1NOFS0']
 #and DO NOT EXCEED 30 chars in the name
 raster_groups = [
         ["API_mm_daily_ENACTS1991_2020","Precipitation_mm_annual_ENACTS1983_2017","Precipitation_mm_daily_ENACTS1991_2020","Surface_temperature_oC_mean_annual_ENACTS1983_2017","Surface_temperature_oC_mean_daily_ENACTS1991_2020"],
-        ["Altitude","Altitude_max_within_4x4_matrix","Slope_perc","Slope_perc_max_within_4x4_matrix","TRI","TWI","Aspect","Curvature","Drainage_density","Flow_acc","LS","Plan_curvature","Profile_curvature","SPI","TPI"],
+        ["Altitude","Altitude_max_within_4x4_matrix","Slope_perc","TWI","Aspect","Curvature","Drainage_density","Flow_acc","LS","Plan_curvature","Profile_curvature","SPI","TPI"],
         ["Lithology","Soiltexture","K_factor_Soil_permeability_erodibirity","Soil_depth"],
         ["Landcover","NDVI","NDWI","TNDVI"],
         ["Distance_from_Faults_and_earthquake_hotspots1950_2022"],
